@@ -11,6 +11,12 @@ without committing to the project yet - so as though my changes may not disturb 
 How can you use the staging area to make sure you have one commit per logical
 change?
 
+make sure to only add the changes/changed files that are related to my logical change to
+the staging area before committing them
+best not to mix commits, but finish them --> this is another reason to keep commits 
+reasonably small so as that one logical change can be committed soon, since this 
+style of working may prevent multi tasking sometimes (to my current knowledge)
+
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
 
