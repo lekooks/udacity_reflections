@@ -33,5 +33,13 @@ and what changes may be lost when doing certain things
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
+you end up with one combined result
+one branch (e.g. master) "lives on" while the other one disappears
+we show it opposite to the way we show branching out since we end up with opposite results
+when branching out we end up with two unique branches that can be identified
+after merging it results in just having one uniwue branch that can be identified
+the commits are kept, but the branched out part is gone
+
+
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?q
