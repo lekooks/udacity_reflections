@@ -27,8 +27,11 @@ hotfixes to the master etc
 
 How do the diagrams help you visualize the branch structure?
 
+the visual representaion helps understanding where we are in relation to the master branch for example
+and what changes may be lost when doing certain things
+
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?
+manually?q
