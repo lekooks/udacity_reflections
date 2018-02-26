@@ -1,51 +1,52 @@
+//Q1
 What happens when you initialize a repository? Why do you need to do it?
-the repository is created (version control tracking is "initialized")
-in order to get started tracking this is necessary
-
+//A1
+    the repository is created (version control tracking is "initialized")
+    in order to get started tracking this is necessary
+//Q2
 How is the staging area different from the working directory and the repository?
 What value do you think it offers?
-
-it is a sort of intermediary state that allows me to work on files and have them locally
-without committing to the project yet - so as though my changes may not disturb others
-
+//A2
+    it is a sort of intermediary state that allows me to work on files and have them locally
+    without committing to the project yet - so as though my changes may not disturb others
+//Q3
 How can you use the staging area to make sure you have one commit per logical
 change?
-
-make sure to only add the changes/changed files that are related to my logical change to
-the staging area before committing them
-best not to mix commits, but finish them --> this is another reason to keep commits 
-reasonably small so as that one logical change can be committed soon, since this 
-style of working may prevent multi tasking sometimes (to my current knowledge)
-
+//A3
+    make sure to only add the changes/changed files that are related to my logical change to
+    the staging area before committing them
+    best not to mix commits, but finish them --> this is another reason to keep commits 
+    reasonably small so as that one logical change can be committed soon, since this 
+    style of working may prevent multi tasking sometimes (to my current knowledge)
+//Q4
 What are some situations when branches would be helpful in keeping your history
 organized? How would branches help?
-
-working with a team
-working on new features alongsige a runing master version
-working on a new version alongsige a published master version
-hotfixes to the master etc
-
+//A4
+    working with a team
+    working on new features alongsige a runing master version
+    working on a new version alongsige a published master version
+    hotfixes to the master etc
+//Q5
 How do the diagrams help you visualize the branch structure?
-
-the visual representaion helps understanding where we are in relation to the master branch for example
-and what changes may be lost when doing certain things
-
+//A5
+    the visual representaion helps understanding where we are in relation to the master branch for example
+    and what changes may be lost when doing certain things
+//Q6
 What is the result of merging two branches together? Why do we represent it in
 the diagram the way we do?
-
-you end up with one combined result
-one branch (e.g. master) "lives on" while the other one disappears
-we show it opposite to the way we show branching out since we end up with opposite results
-when branching out we end up with two unique branches that can be identified
-after merging it results in just having one uniwue branch that can be identified
-the commits are kept, but the branched out part is gone
-
-
+//A6
+    you end up with one combined result
+    one branch (e.g. master) "lives on" while the other one disappears
+    we show it opposite to the way we show branching out since we end up with opposite results
+    when branching out we end up with two unique branches that can be identified
+    after merging it results in just having one uniwue branch that can be identified
+    the commits are kept, but the branched out part is gone
+//Q7
 What are the pros and cons of Git's automatic merging vs. always doing merges
-manually?q
-
-automatic merging will help not forgetting to do it and to keep the merges realtively small
-on the other hand, always doing it manually will make sure there are always eyes on what finally
-goes into the files and that a compileable and running version of the code is produced after the
-merge, git cannot be expected to know how to resolve that way on it's own
-although it would be awesome (on the other hand sort of would make humans more obsolete I guess)
+manually?
+//A7
+    automatic merging will help not forgetting to do it and to keep the merges realtively small
+    on the other hand, always doing it manually will make sure there are always eyes on what finally
+    goes into the files and that a compileable and running version of the code is produced after the
+    merge, git cannot be expected to know how to resolve that way on it's own
+    although it would be awesome (on the other hand sort of would make humans more obsolete I guess)

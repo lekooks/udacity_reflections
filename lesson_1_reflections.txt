@@ -1,14 +1,15 @@
+//Q1
 How did viewing a diff between two versions of a file help you see the bug that
 was introduced?
-
+//A1
     The machine-assisted marking of differences in the file is a lot faster than doing
     on ones own just using the eyes/brain. I don't need to go over everything that did
     not change, instead I can focus on the differences that were introduced and with it
     focus on seing how these may affect the output the code generates.
-
+//Q2
 How could having easy access to the entire history of a file make you a more
 efficient programmer in the long term?
-
+//A2
     I can more easily
     - see what's been introduced and why
     - see what was improved and how
@@ -17,37 +18,37 @@ efficient programmer in the long term?
     - if there's fundamental damage to a code that has be intriduced through recent 
     changes I can fall back to a previously working version of the code and do not
     HAVE to deal with the debugging instead I can start over
-
+//Q3
 What do you think are the pros and cons of manually choosing when to create a
 commit, like you do in Git, vs having versions automatically saved, like Google
 docs does?
-
+//A3
     pro:
     -control of when things are introduced (e.g. not do it on a friday night before the weekend)
     -own changes
     con:
     -manual effort
     -repetitive steps (though optimized)
-
+//Q4
 Why do you think some version control systems, like Git, allow saving multiple
 files in one commit, while others, like Google Docs, treat each file separately?
-
+//A4
     applications often require to adapt multiple files to make a single change works 
     whereas regular documents mostly do not
-
+//Q5
 How can you use the commands git log and git diff to view the history of files?
-
+//A5
     git log > view all previous commits
     git diff > commit_id_1 commit_id_2 to check for actual changes between commits
     git config --global color.ui auto to view it in color
-
+//Q6
 How might using version control make you more confident to make changes that
 could break something?
-
+//A6
     using version control I introduce the power to revert to t a working version whenever  I intrduce a bug
     also it can help me to narrow down exactly when errors were introduced
-
+//Q7
 Now that you have your workspace set up, what do you want to try using Git for?
-
+//A7
     to run some more examplatory changes, e.g. mini games and so on to better understand how sharing code 
     and collaboating over it works in my company
