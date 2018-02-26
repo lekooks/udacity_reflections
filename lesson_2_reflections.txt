@@ -43,3 +43,9 @@ the commits are kept, but the branched out part is gone
 
 What are the pros and cons of Git's automatic merging vs. always doing merges
 manually?q
+
+automatic merging will help not forgetting to do it and to keep the merges realtively small
+on the other hand, always doing it manually will make sure there are always eyes on what finally
+goes into the files and that a compileable and running version of the code is produced after the
+merge, git cannot be expected to know how to resolve that way on it's own
+although it would be awesome (on the other hand sort of would make humans more obsolete I guess)
