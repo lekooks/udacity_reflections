@@ -21,7 +21,11 @@ use one instead of another?
 What is the benefit of having a copy of the last known state of the remote
 stored locally?
 //A4
-    Fill in your answer here
+    to answer with the alternative scenario: when not doing it I may run so out of sync that pushing my
+    changes once finished will become extra hard, more contributions I miss mean more potential merge
+    conflicts to resolve, just as we try to keep commits as reasonably small as possible we should merge
+    and sync (push/pull) as often as possible (all within reason) to keep contribution as smooth as possible
+    for everyone
 //Q5
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
