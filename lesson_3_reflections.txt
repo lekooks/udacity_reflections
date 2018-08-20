@@ -30,9 +30,15 @@ stored locally?
 How would you collaborate without using Git or GitHub?  What would be easier,
 and what would be harder?
 //A5
-    Fill in your answer here
+    Through either collaborating tools that other progarmms offer, or trying to manually update a separate
+    if nothing similar to git is available (probably very flaky). If possible I'd always try to use a collaboration
+    and versioning tool such as git.
 //Q6
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 //A6
-    Fill in your answer here
+    Only if I need to work very remote or am unable to update the master branch for longer periods of time
+    or if I'm woring on a separate feature that I need to get running once locally first
+    --> always pushing my stuff to master and therefor mess with everybody elses base doesn't always make
+    sense then, other need to be made aware of planned changes/refactorings outside of git though also
+    collaborating cannojust happen within the shell
